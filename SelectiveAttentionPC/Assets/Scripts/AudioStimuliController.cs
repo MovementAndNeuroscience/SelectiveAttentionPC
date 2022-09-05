@@ -40,6 +40,7 @@ public class AudioStimuliController : MonoBehaviour
     public GameObject faster;
     public GameObject happyFace;
     public GameObject sadFace;
+    public GameObject canvas;
 
     public GameObject p_audio;
     public GameObject b_audio;
@@ -193,6 +194,7 @@ public class AudioStimuliController : MonoBehaviour
 
     private void ProvideFeedback()
     {
+        canvas.SetActive(true);
         if (!enableHappy && !enableSad)
         {
             answer_codes[stimuliCounter] = 0;
@@ -220,8 +222,12 @@ public class AudioStimuliController : MonoBehaviour
 
     private void ShowBlankScreen()
     {
+        canvas.SetActive(false);
         (stimuliOffsetTimes, stimuliTimes, enableBlankScreen) = GetComponent<StimuliControllerHelper>().ShowBlankScreen(p_target, b_target, p_distractor,
         b_distractor, g_distractor, h_filler, l_filler, y_filler, stimuliOffsetTimes, stimuliOnsetTimes, stimuliTimes, stimuliCounter, grandClock);
+        p_audio.SetActive(false);
+        b_audio.SetActive(false);
+        g_audio.SetActive(false);
     }
 
     private void PositioningFillers()
@@ -245,14 +251,17 @@ public class AudioStimuliController : MonoBehaviour
 
         if (distractorLetter == "p")
         {
+            p_audio.SetActive(true);
             p_audio.GetComponent<AudioSource>().Play();
         }
         else if (distractorLetter == "b")
         {
+            b_audio.SetActive(true);
             b_audio.GetComponent<AudioSource>().Play();
         }
         else if (distractorLetter == "g")
         {
+            g_audio.SetActive(true);   
             g_audio.GetComponent<AudioSource>().Play();
         }
     }

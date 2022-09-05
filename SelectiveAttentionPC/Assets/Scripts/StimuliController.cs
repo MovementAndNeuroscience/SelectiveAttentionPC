@@ -41,6 +41,7 @@ public class StimuliController : MonoBehaviour
     public GameObject faster;
     public GameObject happyFace;
     public GameObject sadFace;
+    public GameObject canvas; 
 
     public static int maxReactiontimes = 12;
     public float[] reactionTimes = new float[maxReactiontimes];
@@ -190,6 +191,7 @@ public class StimuliController : MonoBehaviour
 
     private void ProvideFeedback()
     {
+        canvas.SetActive(true);
         if (!enableHappy && !enableSad)
         {
             answer_codes[stimuliCounter] = 0;
@@ -219,6 +221,7 @@ public class StimuliController : MonoBehaviour
     {
         (stimuliOffsetTimes, stimuliTimes, enableBlankScreen) = GetComponent<StimuliControllerHelper>().ShowBlankScreen(p_target, b_target, p_distractor,
         b_distractor, g_distractor, h_filler, l_filler, y_filler, stimuliOffsetTimes, stimuliOnsetTimes, stimuliTimes, stimuliCounter, grandClock);
+        canvas.SetActive(false);
     }
 
     private void PositioningFillers()

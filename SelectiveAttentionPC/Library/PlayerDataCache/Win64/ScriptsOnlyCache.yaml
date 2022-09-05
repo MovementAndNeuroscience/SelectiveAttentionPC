@@ -3,13 +3,13 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ActivateExperiment
     - ActiveFieldAtStartUp
-    - AudioStimuliController
     - AudioVisualStimuliController
+    - BlockController
     - ContinueExperiment
+    - ExitGame
     - FileSaver
     - SceneController
     - SlowTrainingController
-    - StimuliController
     - StimuliControllerHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -92,10 +92,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -115,51 +111,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2046}
     - Class: 114
-      Script: {instanceID: 2068}
-    - Class: 114
       Script: {instanceID: 2184}
     - Class: 114
       Script: {instanceID: 2316}
     - Class: 114
-      Script: {instanceID: 2616}
+      Script: {instanceID: 2422}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2618}
     - Class: 114
-      Script: {instanceID: 2836}
+      Script: {instanceID: 2660}
     - Class: 114
-      Script: {instanceID: 3572}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 4050}
+      Script: {instanceID: 3574}
     - Class: 114
-      Script: {instanceID: 4146}
+      Script: {instanceID: 4052}
     - Class: 114
-      Script: {instanceID: 4162}
+      Script: {instanceID: 4148}
     - Class: 114
-      Script: {instanceID: 4424}
+      Script: {instanceID: 4164}
     - Class: 114
-      Script: {instanceID: 4556}
+      Script: {instanceID: 4426}
     - Class: 114
-      Script: {instanceID: 4952}
+      Script: {instanceID: 4558}
     - Class: 114
-      Script: {instanceID: 5156}
+      Script: {instanceID: 4954}
     - Class: 114
-      Script: {instanceID: 5732}
+      Script: {instanceID: 5158}
     - Class: 114
-      Script: {instanceID: 5882}
+      Script: {instanceID: 5736}
     - Class: 114
-      Script: {instanceID: 5998}
+      Script: {instanceID: 5886}
     - Class: 114
-      Script: {instanceID: 6012}
+      Script: {instanceID: 6002}
     - Class: 114
-      Script: {instanceID: 6210}
+      Script: {instanceID: 6214}
     - Class: 114
-      Script: {instanceID: 6466}
+      Script: {instanceID: 6470}
     - Class: 114
-      Script: {instanceID: 6650}
+      Script: {instanceID: 6654}
     - Class: 114
-      Script: {instanceID: 7514}
+      Script: {instanceID: 7518}
     - Class: 114
-      Script: {instanceID: 23704}
+      Script: {instanceID: 29762}
+    - Class: 114
+      Script: {instanceID: 29764}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -167,8 +163,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 205
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -257,7 +251,7 @@ ScriptsOnlyBuild:
     className: FileSaver
   - hash:
       serializedVersion: 2
-      Hash: 599db9497fe2e39366a915101cd1565f
+      Hash: c39b7dc5e29ac5bbde3ae4290e3638e6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StimuliController
@@ -303,6 +297,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 145db986e0294ed235923c5c40bdb59e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SlowTrainingController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -689,7 +689,7 @@ ScriptsOnlyBuild:
     className: TextConsoleSimulator
   - hash:
       serializedVersion: 2
-      Hash: 96ee0ceeb04d13e78ff5a703c9477a34
+      Hash: 9318bafa21e6792ee73d722b9a81e2ae
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ContinueExperiment
@@ -899,7 +899,7 @@ ScriptsOnlyBuild:
     className: ActivateExperiment
   - hash:
       serializedVersion: 2
-      Hash: af37fddeeb3a7404565e7c93fa07864c
+      Hash: 8d638c7e96bb2b04cf1695c64041de6a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AudioStimuliController
@@ -953,7 +953,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: af37fddeeb3a7404565e7c93fa07864c
+      Hash: 892b402bd0d6ec16063c3e6dea3e2d74
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AudioVisualStimuliController
@@ -1115,7 +1115,7 @@ ScriptsOnlyBuild:
     className: UnityOnParticleCollisionMessageListener
   - hash:
       serializedVersion: 2
-      Hash: f558832f20422cd14a9f93840f288bf4
+      Hash: 58abf92863011029c572cd6eb47ae698
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SceneController
@@ -1217,11 +1217,17 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 599db9497fe2e39366a915101cd1565f
+      Hash: aa0d520ea0d9dd5864b3a88cb3876f43
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SlowTrainingController
+    className: BlockController
+  - hash:
+      serializedVersion: 2
+      Hash: 8af58e641920b9fcf760feffc48e27cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExitGame
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Unity/RT_Apk/SelectiveAttentionPC/SelectiveAttentionPC.exe
+  playerPath: C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D.exe

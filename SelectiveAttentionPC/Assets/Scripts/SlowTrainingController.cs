@@ -17,12 +17,21 @@ public class SlowTrainingController : MonoBehaviour
     private Vector2 filler_low_left_pos = new Vector2(-300.0f, -200.0f);
     private Vector2 filler_low_right_pos = new Vector2(300.0f, -200.0f);
     private Vector2 filler_up_right_pos = new Vector2(300.0f, 200.0f);
-    private int allowedBNeutral = 2;
-    private int allowedBIncongruence = 2;
-    private int allowedBCongruence = 2;
+    private int allowedBNeutral = 1;
+    private int allowedBIncongruence = 1;
+    private int allowedBCongruence = 1;
     private int allowedPNeutral = 2;
     private int allowedPIncongruence = 2;
     private int allowedPCongruence = 2;
+    private int visCong = 1; 
+    private int visIncong = 1;
+    private int visNeu = 1;
+    private int audVisCong = 1;
+    private int audVisIncong = 1;
+    private int audVisNeu = 1;
+    private int audCong = 1;
+    private int audIncong = 1;
+    private int audNeu = 1;
     private string targetLetter = "g";
     private string distractorLetter = "g";
 
@@ -41,8 +50,13 @@ public class SlowTrainingController : MonoBehaviour
     public GameObject faster;
     public GameObject happyFace;
     public GameObject sadFace;
+    public GameObject canvas;
+    public GameObject p_audio;
+    public GameObject b_audio;
+    public GameObject g_audio;
+    public float stimuliEndtime = 2.0f;
 
-    public static int maxReactiontimes = 12;
+    public static int maxReactiontimes = 9;
     public float[] reactionTimes = new float[maxReactiontimes];
     public float[] fixationCrossOnsetTimes = new float[maxReactiontimes];
     public float[] fixationCrossOffsetTimes = new float[maxReactiontimes];
@@ -110,7 +124,7 @@ public class SlowTrainingController : MonoBehaviour
             enableFixation = false;
         }
 
-        else if (timer > 1.0f && timer < 2.0f && enableStimuli)
+        else if (timer > 1.0f && timer < stimuliEndtime && enableStimuli)
         {
             x_fixation.SetActive(false);
             fixationCrossOffsetTimes[stimuliCounter] = grandClock;
@@ -139,7 +153,7 @@ public class SlowTrainingController : MonoBehaviour
             enableStimuli = false;
 
         }
-        else if (timer > 2.0f && timer < 6.2f && enableBlankScreen)
+        else if (timer > stimuliEndtime && timer < 6.2f && enableBlankScreen)
         {
             ShowBlankScreen();
             blankScreenOnsetTimes[stimuliCounter] = grandClock;
@@ -190,6 +204,7 @@ public class SlowTrainingController : MonoBehaviour
 
     private void ProvideFeedback()
     {
+        canvas.SetActive(true);
         if (!enableHappy && !enableSad)
         {
             answer_codes[stimuliCounter] = 0;
@@ -219,6 +234,10 @@ public class SlowTrainingController : MonoBehaviour
     {
         (stimuliOffsetTimes, stimuliTimes, enableBlankScreen) = GetComponent<StimuliControllerHelper>().ShowBlankScreen(p_target, b_target, p_distractor,
         b_distractor, g_distractor, h_filler, l_filler, y_filler, stimuliOffsetTimes, stimuliOnsetTimes, stimuliTimes, stimuliCounter, grandClock);
+        canvas.SetActive(false);
+        p_audio.SetActive(false);
+        b_audio.SetActive(false);
+        g_audio.SetActive(false);  
     }
 
     private void PositioningFillers()
@@ -240,23 +259,136 @@ public class SlowTrainingController : MonoBehaviour
             b_target.GetComponent<RectTransform>().anchoredPosition = targetPostiionVector;
         }
 
-        if (distractorLetter == "p")
+        ChooseDistractorType();
+    }
+    private void ChooseDistractorType()
+    {
+        int distType = Random.Range(1, 4);
+        switch (distType)
         {
-            p_distractor.SetActive(true);
-            p_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
-        }
-        else if (distractorLetter == "b")
-        {
-            b_distractor.SetActive(true);
-            b_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
-        }
-        else if (distractorLetter == "g")
-        {
-            g_distractor.SetActive(true);
-            g_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
+            case 1:
+                if (distractorLetter == "p" && targetLetter == "p" && visCong >= 1)
+                {
+                    p_distractor.SetActive(true);
+                    p_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
+                    visCong -= 1;
+                }
+                else if (distractorLetter == "b" && targetLetter == "b" && visCong >= 1)
+                {
+                    b_distractor.SetActive(true);
+                    b_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
+                    visCong -= 1;
+                }
+                else if (distractorLetter == "b" &&  targetLetter == "p" && visIncong >= 1)
+                {
+                    b_distractor.SetActive(true);
+                    b_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
+                    visIncong -= 1;
+                }
+                else if (distractorLetter == "p" &&  targetLetter == "b" && visIncong >= 1)
+                {
+                    p_distractor.SetActive(true);
+                    p_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
+                    visIncong -= 1;
+                }
+                else if (distractorLetter == "g" && visNeu >= 1)
+                {
+                    g_distractor.SetActive(true);
+                    g_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
+                    visNeu -= 1;
+                }
+                else
+                {
+                    ChooseDistractorType();
+                }
+                break;
+
+            case 2: 
+                if (distractorLetter == "p" && targetLetter == "p" && audVisCong >= 1)
+                {
+                    p_distractor.SetActive(true);
+                    p_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
+                    p_audio.SetActive(true);
+                    p_audio.GetComponent<AudioSource>().Play();
+                    audVisCong -= 1;
+                }
+                else if (distractorLetter == "b" && targetLetter == "b" && audVisCong >= 1)
+                {
+                    b_distractor.SetActive(true);
+                    b_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
+                    b_audio.SetActive(true);
+                    b_audio.GetComponent<AudioSource>().Play();
+                    audVisCong -= 1;
+                }
+                else if (distractorLetter == "b" && targetLetter == "p" && audVisIncong >= 1)
+                {
+                    b_distractor.SetActive(true);
+                    b_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
+                    b_audio.SetActive(true);
+                    b_audio.GetComponent<AudioSource>().Play();
+                    audVisIncong -= 1;
+                }
+                else if (distractorLetter == "p" && targetLetter == "b" && audVisIncong >= 1)
+                {
+                    p_distractor.SetActive(true);
+                    p_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
+                    p_audio.SetActive(true);
+                    p_audio.GetComponent<AudioSource>().Play();
+                    audVisIncong -= 1;
+                }
+                else if (distractorLetter == "g" && audVisNeu>= 1)
+                {
+                    g_distractor.SetActive(true);
+                    g_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
+                    g_audio.SetActive(true);
+                    g_audio.GetComponent<AudioSource>().Play();
+                    audVisNeu -= 1; 
+                }
+                else
+                {
+                    ChooseDistractorType();
+                }
+                break;
+
+            case 3:
+                if (distractorLetter == "p" && targetLetter == "p" && audCong >= 1)
+                {
+                    p_audio.SetActive(true);
+                    p_audio.GetComponent<AudioSource>().Play();
+                    audCong -= 1;   
+                }
+                else if (distractorLetter == "b" && targetLetter == "b" && audCong >= 1)
+                {
+                    b_audio.SetActive(true);
+                    b_audio.GetComponent<AudioSource>().Play();
+                    audCong -= 1;
+                }
+                else if (distractorLetter == "b" && targetLetter == "p" && audIncong >= 1)
+                {
+                    b_audio.SetActive(true);
+                    b_audio.GetComponent<AudioSource>().Play();
+                    audIncong -= 1;
+                }
+                else if (distractorLetter == "p" && targetLetter == "b" && audIncong >= 1)
+                {
+                    p_audio.SetActive(true);
+                    p_audio.GetComponent<AudioSource>().Play();
+                    audIncong -= 1;
+                }
+                else if (distractorLetter == "g" && audNeu >= 1)
+                {
+                    g_audio.SetActive(true);
+                    g_audio.GetComponent<AudioSource>().Play();
+                    audNeu -= 1;
+                }
+                else
+                {
+                    ChooseDistractorType();
+                }
+                break;
+                
         }
     }
-
     private Vector2 getPositionTarget(string targetpos)
     {
         switch (targetpos)
