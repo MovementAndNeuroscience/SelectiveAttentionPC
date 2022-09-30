@@ -139,23 +139,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5158}
     - Class: 114
-      Script: {instanceID: 5736}
+      Script: {instanceID: 5734}
     - Class: 114
-      Script: {instanceID: 5886}
+      Script: {instanceID: 5884}
     - Class: 114
-      Script: {instanceID: 6002}
+      Script: {instanceID: 6000}
     - Class: 114
-      Script: {instanceID: 6214}
+      Script: {instanceID: 6212}
     - Class: 114
-      Script: {instanceID: 6470}
+      Script: {instanceID: 6468}
     - Class: 114
-      Script: {instanceID: 6654}
+      Script: {instanceID: 6652}
+    - Class: 114
+      Script: {instanceID: 7516}
     - Class: 114
       Script: {instanceID: 7518}
     - Class: 114
-      Script: {instanceID: 29762}
-    - Class: 114
-      Script: {instanceID: 29764}
+      Script: {instanceID: 8064}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1121,6 +1121,12 @@ ScriptsOnlyBuild:
     className: SceneController
   - hash:
       serializedVersion: 2
+      Hash: 8af58e641920b9fcf760feffc48e27cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExitGame
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1211,22 +1217,16 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.VisualScripting.Core.dll
-    namespaceName: Unity.VisualScripting
-    className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
       Hash: aa0d520ea0d9dd5864b3a88cb3876f43
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BlockController
   - hash:
       serializedVersion: 2
-      Hash: 8af58e641920b9fcf760feffc48e27cb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ExitGame
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

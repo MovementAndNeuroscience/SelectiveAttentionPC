@@ -1957,7 +1957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4331ad28b3c0814699bfa1f47def584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audVisStim: {fileID: 0}
+  audVisStim: {fileID: 1782517335}
 --- !u!1 &835890736
 GameObject:
   m_ObjectHideFlags: 0

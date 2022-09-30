@@ -1,455 +1,455 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1662031214104342, "dur":1293, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031214105643, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1662031214105696, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1662031214105707, "dur":797, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1662031214106588, "dur":759, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031214107347, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289054, "dur":169, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289224, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289239, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289242, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289252, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289254, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289260, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289261, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289267, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289268, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289274, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289276, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289283, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289285, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289292, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289293, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289299, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289310, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215289377, "dur":1276, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1662031214106993, "dur":361, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214107355, "dur":6092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214113447, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1662031214113578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214117155, "dur":17478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1662031214134698, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1662031214134845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214134977, "dur":16485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1662031214152483, "dur":61996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214214484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214214978, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214216490, "dur":3251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214219747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214220108, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214221425, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214221770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214221871, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214223146, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214223536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214223544, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214225026, "dur":1175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214226207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214226217, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214227529, "dur":785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214228319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214228328, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214229495, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214229830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214229840, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214231057, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214231329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214231337, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214233031, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214233475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214233483, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214234694, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214235009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214235020, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214236262, "dur":864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214237133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214237143, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214238726, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214239036, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214239052, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214240844, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214241155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214241165, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214242712, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214243030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214243041, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214244317, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214244637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214244647, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214246400, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214246671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214246680, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214248235, "dur":642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214248883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214248891, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214250671, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214251021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214251030, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214252477, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214252834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214252842, "dur":8180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214261082, "dur":13750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214274836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214274845, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214276041, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214276460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214276469, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214278544, "dur":82864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214361414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214361517, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214364760, "dur":140097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214504863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214504872, "dur":10974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214515901, "dur":102030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214617938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214617947, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214619341, "dur":235147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214854495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214854505, "dur":11027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214865583, "dur":84370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214949959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031214949970, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031214952789, "dur":256159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031215208956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1662031215208967, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1662031215210562, "dur":78492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1662031214107030, "dur":333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1662031214107363, "dur":5998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1662031214113367, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1662031214113591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1662031214125638, "dur":5065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1662031214130760, "dur":15445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1662031214146211, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1662031214146232, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1662031214147567, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1662031214147741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1662031214147750, "dur":421387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1662031214569193, "dur":186673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1662031214755872, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1662031214755883, "dur":22728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1662031214778677, "dur":260294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1662031215038977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1662031215038987, "dur":3029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1662031215042071, "dur":5899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1662031215047974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1662031215047981, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1662031215051085, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1662031215051147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1662031215051152, "dur":9031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1662031215060240, "dur":228811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214107064, "dur":305, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214107369, "dur":5991, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214113366, "dur":44651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1662031214158023, "dur":583, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214160028, "dur":6731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1662031214166819, "dur":41177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D.exe" }}
-,{ "pid":12345, "tid":3, "ts":1662031214208002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214208009, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D.exe" }}
-,{ "pid":12345, "tid":3, "ts":1662031214210118, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1662031214210269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214213903, "dur":41674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":3, "ts":1662031214255635, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214255960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214255968, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214257350, "dur":2409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214259766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214259776, "dur":3293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214263152, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214263565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214263574, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214264836, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214265140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214265150, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214266398, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214266825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214266835, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214268266, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214268595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214268604, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214270068, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214270344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214270353, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214271393, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214271766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214271800, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214273289, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214273588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214273597, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214274748, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214275032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214275039, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214276662, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214276954, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214276967, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214278193, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214278465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214278473, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214279654, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214279985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214279992, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214281038, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214281325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214281333, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214282411, "dur":1356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214283773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214283782, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214285374, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214285787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214285795, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214287223, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214287619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214287628, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214288896, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214289223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214289231, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214290393, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214290820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214290828, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214292099, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214292380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214292388, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214293514, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214293793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214293801, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214295504, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214295809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214295818, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214297584, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214297923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214297957, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214299325, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214299718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214299727, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214301786, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214302127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214302136, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214303417, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214303668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214303676, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214304925, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214305318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214305326, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214306464, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214306876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214306886, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214308423, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214308766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214308775, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214310123, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214310446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214310453, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214311586, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214312423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214312433, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214313794, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214314276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214314284, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214315672, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214316041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214316048, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214317879, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214318161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214318169, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214319587, "dur":50966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214370649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214370692, "dur":14390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214385136, "dur":67924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214453066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214453076, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214454668, "dur":391619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214846294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031214846303, "dur":6233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031214852592, "dur":192603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031215045201, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031215045212, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1662031215046824, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1662031215046900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1662031215046908, "dur":15755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1662031215062733, "dur":226317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1662031214107095, "dur":279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1662031214107374, "dur":6006, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1662031214113380, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1662031214113577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1662031214116799, "dur":478601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1662031214595454, "dur":103764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1662031214699225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1662031214699236, "dur":10878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1662031214710166, "dur":110864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1662031214821037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1662031214821046, "dur":2529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1662031214823629, "dur":196171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1662031215019806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1662031215019816, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1662031215021832, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1662031215021900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1662031215021907, "dur":14065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1662031215036026, "dur":11717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1662031215047748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1662031215047756, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1662031215050994, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/level0" }}
-,{ "pid":12345, "tid":4, "ts":1662031215051059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1662031215051067, "dur":8980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/level0" }}
-,{ "pid":12345, "tid":4, "ts":1662031215060103, "dur":9024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1662031215069132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1662031215069139, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1662031215070863, "dur":218202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214107127, "dur":251, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214107379, "dur":5996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214113377, "dur":12254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1662031214125636, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214125653, "dur":5261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1662031214130968, "dur":16814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1662031214147786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214147793, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1662031214149029, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1662031214149173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214149182, "dur":14690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1662031214164035, "dur":108073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1662031214272112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214272117, "dur":26925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1662031214299102, "dur":653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214299759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214299766, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214301544, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214302167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214302174, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214303499, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214303851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214303882, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214305099, "dur":796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214305900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214305908, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214307025, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214307287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214307294, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214308463, "dur":1747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214310214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214310223, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214312247, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214312503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214312509, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214313823, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214314087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214314096, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214315403, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214315659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214315668, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214317098, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214317450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214317460, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214318601, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214318897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214318905, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214320171, "dur":140754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214460932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214460941, "dur":4880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214465874, "dur":193595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214659475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214659487, "dur":49827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214709367, "dur":47576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214756949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031214756959, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031214758892, "dur":309331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031215068230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1662031215068239, "dur":2072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1662031215070369, "dur":218692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031214107153, "dur":231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031214107384, "dur":5989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031214113376, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1662031214113574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031214116876, "dur":14524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1662031214131457, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1662031214131584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031214132124, "dur":3484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1662031214135675, "dur":18094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1662031214153776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031214153787, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1662031214155970, "dur":76717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1662031214232693, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031214232789, "dur":17851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1662031214250766, "dur":1346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1662031214252118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031214252127, "dur":4622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1662031214259074, "dur":256336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1662031214515417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031214515427, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1662031214516959, "dur":164370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":6, "ts":1662031214681335, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031214681345, "dur":30308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":6, "ts":1662031214711727, "dur":58298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":6, "ts":1662031214770031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031214770041, "dur":5783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":6, "ts":1662031214775877, "dur":219668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":6, "ts":1662031214995551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031214995588, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":6, "ts":1662031215000148, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1662031215000211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031215000289, "dur":9627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1662031215009969, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1662031215010035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031215010043, "dur":9971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1662031215020069, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1662031215020127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031215020134, "dur":23023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1662031215043214, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1662031215043280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031215043287, "dur":11954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1662031215055291, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1662031215055351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1662031215055359, "dur":11055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1662031215066466, "dur":222586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1662031214107348, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1662031214107349, "dur":6004, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1662031214113366, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":7, "ts":1662031214113372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1662031214114793, "dur":824, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":7, "ts":1662031214115621, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/app.info" }}
-,{ "pid":12345, "tid":7, "ts":1662031214115708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1662031214116047, "dur":15394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/app.info" }}
-,{ "pid":12345, "tid":7, "ts":1662031214131442, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1662031214131671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1662031214131678, "dur":366589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1662031214498327, "dur":294359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":7, "ts":1662031214792694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1662031214792703, "dur":9370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":7, "ts":1662031214802126, "dur":93933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1662031214896065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1662031214896075, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1662031214897559, "dur":388468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":7, "ts":1662031215286032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1662031215286038, "dur":2937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":7, "ts":1662031215289029, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":7, "ts":1662031215289033, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1662031214107385, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1662031214107386, "dur":5983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1662031214113372, "dur":14401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1662031214127779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1662031214127797, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1662031214130912, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1662031214131039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1662031214131176, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1662031214133925, "dur":16831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1662031214150762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1662031214150773, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1662031214151909, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":8, "ts":1662031214152113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1662031214152121, "dur":4144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":8, "ts":1662031214156324, "dur":235165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1662031214391494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1662031214391502, "dur":34625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1662031214426183, "dur":111696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1662031214537885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1662031214537895, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1662031214539169, "dur":283120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1662031214822294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1662031214822303, "dur":2771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1662031214825125, "dur":127200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1662031214952333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1662031214952343, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1662031214954074, "dur":194114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1662031215148192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1662031215148200, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1662031215149667, "dur":139391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1662031215291993, "dur":2410, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1662448503985160, "dur":1448, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448503986618, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1662448503986662, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1662448503986675, "dur":844, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1662448503987623, "dur":641, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448503988264, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900432, "dur":111, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900543, "dur":143, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900686, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900692, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900703, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900705, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900714, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900716, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900724, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900727, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900735, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900736, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900745, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900747, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900755, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900757, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900766, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900781, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505900855, "dur":2436, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662448503987919, "dur":352, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448503988274, "dur":5534, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448503993822, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662448503993829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448503995505, "dur":554, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662448503996063, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662448503996138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448503996400, "dur":13708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662448504010110, "dur":20009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1662448504030125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504030137, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1662448504031591, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1662448504031749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504031759, "dur":32362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1662448504064199, "dur":48289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D.exe" }}
+,{ "pid":12345, "tid":1, "ts":1662448504112495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504112504, "dur":17440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D.exe" }}
+,{ "pid":12345, "tid":1, "ts":1662448504130014, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504130409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504130785, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504132530, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504132964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504133071, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504134525, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504135062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504135073, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504138095, "dur":1849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504139952, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504139963, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504141464, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504141837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504141847, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504143501, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504143926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504143937, "dur":1899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504146076, "dur":1156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504147238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504147249, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504149884, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504150275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504150286, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504152189, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504152546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504152558, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504154836, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504155433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504155444, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504159700, "dur":989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504160696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504160708, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504162307, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504162729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504162740, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504164640, "dur":844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504165496, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504165513, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504167376, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504167723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504167735, "dur":12218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504180257, "dur":814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504181077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504181088, "dur":7555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504188713, "dur":8855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504197577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504197589, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504200514, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504201237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504201247, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504203947, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504204289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504204329, "dur":5546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504210245, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504210621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504210632, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504212489, "dur":924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504213418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504213427, "dur":4779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504218282, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504218711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504218722, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504220518, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504220875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504220884, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504223518, "dur":1066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504224592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504224603, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504226514, "dur":818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504227337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504227348, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504229680, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504230029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504230068, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504232902, "dur":765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504233673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504233684, "dur":2493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504236251, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504236580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504236617, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504240027, "dur":46710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504286745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504286790, "dur":21066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504307933, "dur":192791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504500767, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504500781, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504503088, "dur":387483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504890579, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448504890594, "dur":102546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448504993231, "dur":125911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448505119151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448505119165, "dur":92255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448505211507, "dur":282123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448505493638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662448505493651, "dur":20479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662448505514217, "dur":386196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448503987965, "dur":319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448503988284, "dur":5532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448503993822, "dur":48093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1662448504041923, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504042571, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1662448504044126, "dur":116577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504160742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504160864, "dur":8078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504169024, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504169372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504169383, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504171327, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504172036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504172048, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504174071, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504174495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504174507, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504176259, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504176620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504176630, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504178152, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504178501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504178511, "dur":2528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504181117, "dur":2281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504183405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504183418, "dur":5643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504189142, "dur":949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504190103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504190115, "dur":8945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504199166, "dur":723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504199896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504199907, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504202086, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504202466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504202477, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504204177, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504204629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504204638, "dur":4362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504209081, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504209427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504209438, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504211031, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504211339, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504211353, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504212956, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504213364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504213375, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504216940, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504217370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504217381, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504220072, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504220471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504220483, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504222491, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504222955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504222966, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504224681, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504224998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504225010, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504226808, "dur":723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504227536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504227546, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504229882, "dur":841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504230730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504230740, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504233015, "dur":665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504233686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504233695, "dur":3766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504237538, "dur":723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504238270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504238280, "dur":2153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504240506, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504240836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504240847, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504242452, "dur":1987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504244445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504244454, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504246957, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504247571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504247581, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504249833, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504250159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504250171, "dur":1967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504252229, "dur":10046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504262283, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504262296, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504264317, "dur":169869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504434194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504434207, "dur":3698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504437980, "dur":212416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504650403, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448504650416, "dur":96783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448504747286, "dur":293880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448505041174, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448505041189, "dur":15559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448505056831, "dur":241261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448505298101, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448505298116, "dur":76597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448505374804, "dur":520281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448505895092, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662448505895102, "dur":5186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662448505900373, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1662448505900378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448503987990, "dur":299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448503988289, "dur":5532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448503993822, "dur":14798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1662448504008626, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448504008648, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1662448504012304, "dur":16474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1662448504028783, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448504028795, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1662448504030406, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662448504030597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448504030606, "dur":424650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662448504455341, "dur":90020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662448504545370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448504545383, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662448504547562, "dur":406789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662448504954359, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448504954373, "dur":38941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662448504993408, "dur":384156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662448505377572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448505377722, "dur":49844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662448505427642, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1662448505427722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448505427798, "dur":3726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1662448505431618, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1662448505431701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448505431711, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1662448505434978, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662448505435051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448505435062, "dur":6232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662448505441374, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662448505441453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448505441464, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662448505443698, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1662448505443909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448505443919, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1662448505445581, "dur":82298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1662448505527887, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662448505527900, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1662448505530356, "dur":370084, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662448503988011, "dur":284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662448503988295, "dur":5529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662448503993827, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1662448503994053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662448504003046, "dur":21891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1662448504025005, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1662448504025166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662448504025262, "dur":14520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1662448504039852, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1662448504040015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662448504040025, "dur":4021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1662448504044116, "dur":62733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662448504106857, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662448504107384, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662448504109901, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1662448504110165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662448504110784, "dur":77098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1662448504187964, "dur":230993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662448504418965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662448504418977, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662448504422295, "dur":837586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662448505259890, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662448505259904, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662448505262257, "dur":94633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662448505356898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662448505356911, "dur":18897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662448505376095, "dur":392710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662448505768814, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662448505768829, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662448505771280, "dur":129152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662448503988040, "dur":260, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662448503988301, "dur":5529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662448503993831, "dur":13435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1662448504007274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662448504007297, "dur":4432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1662448504011801, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1662448504011961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662448504012125, "dur":16662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1662448504028853, "dur":17142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1662448504046002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662448504046013, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1662448504047629, "dur":312323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662448504359958, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662448504359969, "dur":59421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662448504419483, "dur":331956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662448504751450, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662448504751464, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662448504754520, "dur":150161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662448504904691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662448504904706, "dur":95458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662448505000251, "dur":598336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662448505598598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662448505598621, "dur":6744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662448505605445, "dur":294966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662448503988066, "dur":244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662448503988310, "dur":5523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662448503993834, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1662448503994071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662448504003987, "dur":607780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1662448504611863, "dur":199622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662448504811494, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662448504811509, "dur":144751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662448504956350, "dur":198661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662448505155018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662448505155067, "dur":57425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662448505212587, "dur":244567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662448505457201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662448505457213, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662448505459308, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1662448505459391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662448505459401, "dur":3818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1662448505463295, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1662448505463373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662448505463381, "dur":7477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1662448505470950, "dur":429497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448503988091, "dur":224, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448503988315, "dur":5519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448503993834, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1662448503994053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504004179, "dur":15310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1662448504019556, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1662448504019713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504020361, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1662448504023654, "dur":29443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1662448504053104, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504053118, "dur":4406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1662448504057605, "dur":168069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1662448504225679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504225686, "dur":3159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1662448504228931, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504229283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504229293, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504231356, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504231708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504231717, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504234432, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504234799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504234810, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504236434, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504236756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504236765, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504238595, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504238950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504238960, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504240591, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504240905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504240914, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504242625, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504242956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504242967, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504244509, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504244841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504244851, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504246662, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504247228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504247239, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504248992, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504249488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504249499, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504252210, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504252705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504252716, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504254600, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504254973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504254986, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504256679, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504257057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504257069, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504258639, "dur":81363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504340011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504340023, "dur":8424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504348520, "dur":98044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504446572, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448504446586, "dur":3437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448504450111, "dur":704138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448505154257, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448505154273, "dur":60800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448505215155, "dur":241883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448505457051, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448505457066, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662448505459657, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1662448505459744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448505459752, "dur":3040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1662448505462872, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1662448505462949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448505462959, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1662448505465367, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1662448505465449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448505465459, "dur":4764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1662448505470312, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1662448505470567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662448505470580, "dur":18635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1662448505489296, "dur":411160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662448503988117, "dur":204, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662448503988321, "dur":5496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662448503993823, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1662448503994052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662448503997152, "dur":16848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1662448504014069, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1662448504014229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662448504014240, "dur":569300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1662448504583626, "dur":307973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662448504891642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662448504891654, "dur":102787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662448504994519, "dur":373719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662448505368245, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662448505368257, "dur":9605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662448505377949, "dur":272085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662448505650043, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662448505650058, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662448505652604, "dur":247846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662448505906153, "dur":3892, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
