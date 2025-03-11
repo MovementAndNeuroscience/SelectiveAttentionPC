@@ -32,6 +32,9 @@ public class AudioVisualStimuliController : MonoBehaviour
     private int audCong = 4;
     private int audIncong = 4;
     private int audNeu = 4;
+    private bool aud = false;
+    private bool vis = false; 
+    private bool audvis = false;
     private string targetLetter = "g";
     private string distractorLetter = "g";
 
@@ -54,7 +57,9 @@ public class AudioVisualStimuliController : MonoBehaviour
 
     public GameObject p_audio;
     public GameObject b_audio;
-    public GameObject g_audio; 
+    public GameObject g_audio;
+
+    public GameObject biosemi;
 
     public static int maxReactiontimes = 36;
     public float[] reactionTimes = new float[maxReactiontimes];
@@ -122,6 +127,9 @@ public class AudioVisualStimuliController : MonoBehaviour
 
             x_fixation.SetActive(true);
             fixationCrossOnsetTimes[stimuliCounter] = grandClock;
+            byte[] data = { 1 };
+            biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //Fixation trigger
+
             enableFixation = false;
         }
 
@@ -157,6 +165,8 @@ public class AudioVisualStimuliController : MonoBehaviour
         else if (timer > 1.2f && timer < 6.2f && enableBlankScreen)
         {
             ShowBlankScreen();
+            byte[] data = { 5 };
+            biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- Blank screen trigger
             blankScreenOnsetTimes[stimuliCounter] = grandClock;
         }
 
@@ -228,7 +238,7 @@ public class AudioVisualStimuliController : MonoBehaviour
     {
         (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled) =
             GetComponent<StimuliControllerHelper>().RecordReaction(targetLetter, enableHappy, enableSad, reactionTimes,
-            stimuliOnsetTimes, stimuliCounter, grandClock, answers, answer_codes, reactionTimeEnabled);
+            stimuliOnsetTimes, stimuliCounter, grandClock, answers, answer_codes, reactionTimeEnabled,vis,aud,audvis);
     }
 
     private void ShowBlankScreen()
@@ -265,14 +275,20 @@ public class AudioVisualStimuliController : MonoBehaviour
     private void ChooseDistractorType()
     {
         int distType = Random.Range(1, 4);
+        byte[] data = { 2 };
         switch (distType)
         {
             case 1:
+                aud = false;
+                vis = true;
+                audvis = false;
+                data = new byte[] { 2 };
                 if (distractorLetter == "p" && targetLetter == "p" && visCong >= 1)
                 {
                     p_distractor.SetActive(true);
                     p_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
                     visCong -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- visual stimuli trigger 
                     InsertModalityVisual();
 
                 }
@@ -281,6 +297,7 @@ public class AudioVisualStimuliController : MonoBehaviour
                     b_distractor.SetActive(true);
                     b_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
                     visCong -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- visual stimuli trigger 
                     InsertModalityVisual();
                 }
                 else if (distractorLetter == "b" && targetLetter == "p" && visIncong >= 1)
@@ -288,6 +305,7 @@ public class AudioVisualStimuliController : MonoBehaviour
                     b_distractor.SetActive(true);
                     b_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
                     visIncong -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- visual stimuli trigger 
                     InsertModalityVisual();
                 }
                 else if (distractorLetter == "p" && targetLetter == "b" && visIncong >= 1)
@@ -295,6 +313,7 @@ public class AudioVisualStimuliController : MonoBehaviour
                     p_distractor.SetActive(true);
                     p_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
                     visIncong -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- visual stimuli trigger 
                     InsertModalityVisual();
                 }
                 else if (distractorLetter == "g" && visNeu >= 1)
@@ -302,6 +321,7 @@ public class AudioVisualStimuliController : MonoBehaviour
                     g_distractor.SetActive(true);
                     g_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
                     visNeu -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- visual stimuli trigger 
                     InsertModalityVisual();
                 }
                 else
@@ -311,6 +331,10 @@ public class AudioVisualStimuliController : MonoBehaviour
                 break;
 
             case 2:
+                aud = false;
+                vis = false;
+                audvis = true;
+                data = new byte[] { 3 };
                 if (distractorLetter == "p" && targetLetter == "p" && audVisCong >= 1)
                 {
                     p_distractor.SetActive(true);
@@ -318,6 +342,7 @@ public class AudioVisualStimuliController : MonoBehaviour
                     p_audio.SetActive(true);
                     p_audio.GetComponent<AudioSource>().Play();
                     audVisCong -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
                     InsertModalityAudioVisual();
                 }
                 else if (distractorLetter == "b" && targetLetter == "b" && audVisCong >= 1)
@@ -326,7 +351,8 @@ public class AudioVisualStimuliController : MonoBehaviour
                     b_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
                     b_audio.SetActive(true);
                     b_audio.GetComponent<AudioSource>().Play();
-                    audVisCong -= 1; 
+                    audVisCong -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
                     InsertModalityAudioVisual();
                 }
                 else if (distractorLetter == "b" && targetLetter == "p" && audVisIncong >= 1)
@@ -336,6 +362,7 @@ public class AudioVisualStimuliController : MonoBehaviour
                     b_audio.SetActive(true);
                     b_audio.GetComponent<AudioSource>().Play();
                     audVisIncong -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
                     InsertModalityAudioVisual();
                 }
                 else if (distractorLetter == "p" && targetLetter == "b" && audVisIncong >= 1)
@@ -345,6 +372,7 @@ public class AudioVisualStimuliController : MonoBehaviour
                     p_audio.SetActive(true);
                     p_audio.GetComponent<AudioSource>().Play();
                     audVisIncong -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
                     InsertModalityAudioVisual();
                 }
                 else if (distractorLetter == "g" && audVisNeu >= 1)
@@ -354,6 +382,7 @@ public class AudioVisualStimuliController : MonoBehaviour
                     g_audio.SetActive(true);
                     g_audio.GetComponent<AudioSource>().Play();
                     audVisNeu -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
                     InsertModalityAudioVisual();
                 }
                 else
@@ -363,11 +392,16 @@ public class AudioVisualStimuliController : MonoBehaviour
                 break;
 
             case 3:
+                aud = true;
+                vis = false;
+                audvis = false;
+                data = new byte[] { 4 };
                 if (distractorLetter == "p" && targetLetter == "p" && audCong >= 1)
                 {
                     p_audio.SetActive(true);
                     p_audio.GetComponent<AudioSource>().Play();
                     audCong -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud stimuli trigger 
                     InsertModalityAudio();
                 }
                 else if (distractorLetter == "b" && targetLetter == "b" && audCong >= 1)
@@ -375,6 +409,7 @@ public class AudioVisualStimuliController : MonoBehaviour
                     b_audio.SetActive(true);
                     b_audio.GetComponent<AudioSource>().Play();
                     audCong -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud stimuli trigger 
                     InsertModalityAudio();
                 }
                 else if (distractorLetter == "b" && targetLetter == "p" && audIncong >= 1)
@@ -382,6 +417,7 @@ public class AudioVisualStimuliController : MonoBehaviour
                     b_audio.SetActive(true);
                     b_audio.GetComponent<AudioSource>().Play();
                     audIncong -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud stimuli trigger 
                     InsertModalityAudio();
                 }
                 else if (distractorLetter == "p" && targetLetter == "b" && audIncong >= 1)
@@ -389,6 +425,7 @@ public class AudioVisualStimuliController : MonoBehaviour
                     p_audio.SetActive(true);
                     p_audio.GetComponent<AudioSource>().Play();
                     audIncong -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud stimuli trigger 
                     InsertModalityAudio();
                 }
                 else if (distractorLetter == "g" && audNeu >= 1)
@@ -396,6 +433,7 @@ public class AudioVisualStimuliController : MonoBehaviour
                     g_audio.SetActive(true);
                     g_audio.GetComponent<AudioSource>().Play();
                     audNeu -= 1;
+                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud stimuli trigger 
                     InsertModalityAudio();
                 }
                 else

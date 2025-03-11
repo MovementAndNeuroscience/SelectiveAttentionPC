@@ -46,6 +46,10 @@ public class AudioStimuliController : MonoBehaviour
     public GameObject b_audio;
     public GameObject g_audio;
 
+    private bool vis = false;
+    private bool aud = false;
+    private bool audvis = false; 
+
     public static int maxReactiontimes = 12;
     public float[] reactionTimes = new float[maxReactiontimes];
     public float[] fixationCrossOnsetTimes = new float[maxReactiontimes];
@@ -217,7 +221,7 @@ public class AudioStimuliController : MonoBehaviour
     {
         (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled) =
             GetComponent<StimuliControllerHelper>().RecordReaction(targetLetter, enableHappy, enableSad, reactionTimes,
-            stimuliOnsetTimes, stimuliCounter, grandClock, answers, answer_codes, reactionTimeEnabled);
+            stimuliOnsetTimes, stimuliCounter, grandClock, answers, answer_codes, reactionTimeEnabled, vis, aud, audvis);
     }
 
     private void ShowBlankScreen()

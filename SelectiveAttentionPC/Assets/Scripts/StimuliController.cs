@@ -25,6 +25,9 @@ public class StimuliController : MonoBehaviour
     private int allowedPCongruence = 2;
     private string targetLetter = "g";
     private string distractorLetter = "g";
+    private bool aud = false;
+    private bool vis = false;
+    private bool audvis = false;
 
     private bool enableHappy = false;
     private bool enableSad = false; 
@@ -214,7 +217,7 @@ public class StimuliController : MonoBehaviour
     {
         (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled) = 
             GetComponent<StimuliControllerHelper>().RecordReaction(targetLetter, enableHappy, enableSad, reactionTimes,
-            stimuliOnsetTimes, stimuliCounter, grandClock, answers, answer_codes, reactionTimeEnabled);
+            stimuliOnsetTimes, stimuliCounter, grandClock, answers, answer_codes, reactionTimeEnabled,vis,aud,audvis);
     }
 
     private void ShowBlankScreen()

@@ -1,0 +1,12 @@
+1 - Fixation Cross
+2 - Visual Stimuli Onset 
+3 - AudioVisual Stimuli Onset 
+4 - Audio Stimuli Onset 
+5 - Blank 
+6 - Correct Answer Visual Stimuli
+7 - Correct Answer Audio Stimuli
+8 - Correct Answer AudioVisual Stimuli
+9 - Incorrect Answer Visual Stimuli
+10 - Incorrect Answer Audio Stimuli
+11 - Incorrect Answer AudioVisual Stimuli
+

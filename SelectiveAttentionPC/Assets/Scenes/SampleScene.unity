@@ -858,6 +858,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 224886659}
   m_CullTransparentMesh: 1
+--- !u!1 &264713345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 264713347}
+  - component: {fileID: 264713346}
+  - component: {fileID: 264713348}
+  m_Layer: 0
+  m_Name: Bioemi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &264713346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264713345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717ba0b104d86344fbabf538c6840018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  comport: COM3
+  baudrate: 115200
+--- !u!4 &264713347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264713345}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.11005157, y: 1.2694741, z: 4.123637}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &264713348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264713345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f901037cea8c9ed45bbe2eb8a5fc75a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &406073568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1905,7 +1964,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794901080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.244, y: 1.402, z: 3.337}
+  m_LocalPosition: {x: -0.244, y: 1.402, z: 3.4779}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2461,6 +2520,7 @@ MonoBehaviour:
   p_audio: {fileID: 120780377}
   b_audio: {fileID: 667459158}
   g_audio: {fileID: 448184509}
+  biosemi: {fileID: 264713345}
   reactionTimes:
   - 0
   - 0
@@ -2955,6 +3015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf70b1c43340c364f81b084967798778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  biosemi: {fileID: 264713345}
 --- !u!4 &1153724767
 Transform:
   m_ObjectHideFlags: 0
@@ -3179,6 +3240,7 @@ MonoBehaviour:
   p_audio: {fileID: 120780377}
   b_audio: {fileID: 667459158}
   g_audio: {fileID: 448184509}
+  biosemi: {fileID: 264713345}
   reactionTimes:
   - 0
   - 0
@@ -3673,6 +3735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf70b1c43340c364f81b084967798778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  biosemi: {fileID: 264713345}
 --- !u!4 &1485797521
 Transform:
   m_ObjectHideFlags: 0
@@ -4113,6 +4176,7 @@ MonoBehaviour:
   p_audio: {fileID: 120780377}
   b_audio: {fileID: 667459158}
   g_audio: {fileID: 448184509}
+  biosemi: {fileID: 264713345}
   reactionTimes:
   - 0
   - 0
@@ -4607,6 +4671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf70b1c43340c364f81b084967798778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  biosemi: {fileID: 264713345}
 --- !u!4 &1655224533
 Transform:
   m_ObjectHideFlags: 0
@@ -5318,6 +5383,7 @@ MonoBehaviour:
   p_audio: {fileID: 120780377}
   b_audio: {fileID: 667459158}
   g_audio: {fileID: 448184509}
+  biosemi: {fileID: 264713345}
   reactionTimes:
   - 0
   - 0
@@ -5812,6 +5878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf70b1c43340c364f81b084967798778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  biosemi: {fileID: 264713345}
 --- !u!1 &1792992543
 GameObject:
   m_ObjectHideFlags: 0
@@ -6292,6 +6359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf70b1c43340c364f81b084967798778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  biosemi: {fileID: 264713345}
 --- !u!114 &1901037392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6320,6 +6388,7 @@ MonoBehaviour:
   p_audio: {fileID: 120780377}
   b_audio: {fileID: 667459158}
   g_audio: {fileID: 448184509}
+  biosemi: {fileID: 264713345}
   stimuliEndtime: 2
   reactionTimes:
   - 0
@@ -6686,6 +6755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf70b1c43340c364f81b084967798778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  biosemi: {fileID: 264713345}
 --- !u!114 &1966936793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6714,6 +6784,7 @@ MonoBehaviour:
   p_audio: {fileID: 120780377}
   b_audio: {fileID: 667459158}
   g_audio: {fileID: 448184509}
+  biosemi: {fileID: 264713345}
   stimuliEndtime: 1.2
   reactionTimes:
   - 0

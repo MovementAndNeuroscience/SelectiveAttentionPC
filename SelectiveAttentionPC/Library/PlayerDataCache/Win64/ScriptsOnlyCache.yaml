@@ -4,6 +4,8 @@ ScriptsOnlyBuild:
     - ActivateExperiment
     - ActiveFieldAtStartUp
     - AudioVisualStimuliController
+    - BiosemiCommunicator
+    - BiosemiConfigLoader
     - BlockController
     - ContinueExperiment
     - ExitGame
@@ -137,25 +139,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4954}
     - Class: 114
-      Script: {instanceID: 5158}
+      Script: {instanceID: 5136}
     - Class: 114
-      Script: {instanceID: 5734}
+      Script: {instanceID: 5160}
     - Class: 114
-      Script: {instanceID: 5884}
+      Script: {instanceID: 5736}
     - Class: 114
-      Script: {instanceID: 6000}
+      Script: {instanceID: 5886}
     - Class: 114
-      Script: {instanceID: 6212}
+      Script: {instanceID: 6002}
     - Class: 114
-      Script: {instanceID: 6468}
+      Script: {instanceID: 6214}
     - Class: 114
-      Script: {instanceID: 6652}
+      Script: {instanceID: 6470}
     - Class: 114
-      Script: {instanceID: 7516}
+      Script: {instanceID: 6654}
     - Class: 114
       Script: {instanceID: 7518}
     - Class: 114
-      Script: {instanceID: 8064}
+      Script: {instanceID: 7520}
+    - Class: 114
+      Script: {instanceID: 8066}
+    - Class: 114
+      Script: {instanceID: 23662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -299,7 +305,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 145db986e0294ed235923c5c40bdb59e
+      Hash: 2e42afd05df137d7d148501a3e13e58d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SlowTrainingController
@@ -347,7 +353,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 951a3ea9235c1607d923600ea1225605
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StimuliControllerHelper
@@ -809,6 +815,12 @@ ScriptsOnlyBuild:
     className: WarpTextExample
   - hash:
       serializedVersion: 2
+      Hash: 3aef9f926fe74dc7da300e371a9ed60f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BiosemiCommunicator
+  - hash:
+      serializedVersion: 2
       Hash: 300fd99066f8c288e85f5e81ce65fe34
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -953,7 +965,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 892b402bd0d6ec16063c3e6dea3e2d74
+      Hash: f292b62f0813192dab0fc0e1ad92a43d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AudioVisualStimuliController
@@ -1227,7 +1239,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BiosemiConfigLoader
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Unity/RT_Apk/SelectiveAttentionPC_2D/SelectiveAttentionPC_2D.exe
+  playerPath: C:/Unity/SelectiveAttentionPC/SelectiveAttentionPC_2D.exe

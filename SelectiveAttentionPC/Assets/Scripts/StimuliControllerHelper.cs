@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class StimuliControllerHelper : MonoBehaviour
 {
+    public GameObject biosemi; 
+
     public struct Condition_Controller
     {
         public string target;
@@ -115,7 +117,7 @@ public class StimuliControllerHelper : MonoBehaviour
         return(stimuliOffsetTimes, stimuliTimes, false);
     }
 
-    public (bool,bool, float[], string[], int[], bool) RecordReaction(string targetLetter, bool enableHappy, bool enableSad, float[] reactionTimes, float[] stimuliOnsetTimes, int stimuliCounter, float grandClock, string[] answers, int[] answer_codes, bool reactionTimeEnabled)
+    public (bool,bool, float[], string[], int[], bool) RecordReaction(string targetLetter, bool enableHappy, bool enableSad, float[] reactionTimes, float[] stimuliOnsetTimes, int stimuliCounter, float grandClock, string[] answers, int[] answer_codes, bool reactionTimeEnabled, bool vis, bool aud, bool audvis)
     {
         if (Input.GetKeyDown(KeyCode.LeftAlt) && targetLetter == "p")
         {
@@ -124,7 +126,9 @@ public class StimuliControllerHelper : MonoBehaviour
             answers[stimuliCounter] = "Correct";
             answer_codes[stimuliCounter] = 1;
             reactionTimeEnabled = false;
-            return (enableHappy,enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled); 
+            CorrectAnswerTriggers(vis, aud, audvis);
+
+            return (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled);
         }
 
         else if (Input.GetKeyDown(KeyCode.LeftAlt) && targetLetter == "b")
@@ -134,6 +138,7 @@ public class StimuliControllerHelper : MonoBehaviour
             answers[stimuliCounter] = "Incorrect";
             answer_codes[stimuliCounter] = 2;
             reactionTimeEnabled = false;
+            IncorrectAnswerTriggers(vis, aud, audvis);
             return (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled);
         }
         else if (Input.GetKeyDown(KeyCode.RightAlt) && targetLetter == "b")
@@ -142,7 +147,8 @@ public class StimuliControllerHelper : MonoBehaviour
             reactionTimes[stimuliCounter] = grandClock - stimuliOnsetTimes[stimuliCounter];
             answers[stimuliCounter] = "Correct";
             answer_codes[stimuliCounter] = 1;
-            reactionTimeEnabled = false;
+            reactionTimeEnabled = false; 
+            CorrectAnswerTriggers(vis, aud, audvis);
             return (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled);
         }
 
@@ -153,9 +159,34 @@ public class StimuliControllerHelper : MonoBehaviour
             answers[stimuliCounter] = "Incorrect";
             answer_codes[stimuliCounter] = 2;
             reactionTimeEnabled = false;
+            IncorrectAnswerTriggers(vis, aud, audvis);
             return (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled);
         }
         return (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled);
+    }
+
+    private void CorrectAnswerTriggers(bool vis, bool aud, bool audvis)
+    {
+        byte[] data = { 6 };
+
+        if (vis)
+            data = new byte[] { 6 };biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
+        if (aud)
+            data = new byte[] { 7 }; biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
+        if (audvis)
+            data = new byte[] { 8 }; biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
+    }
+
+    private void IncorrectAnswerTriggers(bool vis, bool aud, bool audvis)
+    {
+        byte[] data = { 6 };
+
+        if (vis)
+            data = new byte[] { 9 }; biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
+        if (aud)
+            data = new byte[] { 10 }; biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
+        if (audvis)
+            data = new byte[] { 11 }; biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
     }
 
     public Condition_Controller FindTargetAndDistractor(int allowedPCongruence, int allowedPIncongruence, int allowedPNeutral, 
