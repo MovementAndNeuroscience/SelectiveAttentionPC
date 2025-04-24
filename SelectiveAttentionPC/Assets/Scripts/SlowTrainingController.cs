@@ -58,8 +58,6 @@ public class SlowTrainingController : MonoBehaviour
     public GameObject b_audio;
     public GameObject g_audio;
 
-    public GameObject biosemi;
-
     public float stimuliEndtime = 2.0f;
 
     public static int maxReactiontimes = 9;
@@ -129,7 +127,6 @@ public class SlowTrainingController : MonoBehaviour
             fixationCrossOnsetTimes[stimuliCounter] = grandClock;
 
             byte[] data = { 1 };
-            biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //Fixation trigger
 
             enableFixation = false;
         }
@@ -167,7 +164,6 @@ public class SlowTrainingController : MonoBehaviour
         {
             ShowBlankScreen();
             byte[] data = { 5 };
-            biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- Blank screen trigger
             blankScreenOnsetTimes[stimuliCounter] = grandClock;
         }
 
@@ -238,8 +234,8 @@ public class SlowTrainingController : MonoBehaviour
     private void RecordReaction()
     {
         (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled) =
-            GetComponent<StimuliControllerHelper>().RecordReaction(targetLetter, enableHappy, enableSad, reactionTimes,
-            stimuliOnsetTimes, stimuliCounter, grandClock, answers, answer_codes, reactionTimeEnabled, vis, aud, audvis);
+            GetComponent<StimuliControllerHelper>().RecordReactionTraining(targetLetter, enableHappy, enableSad, reactionTimes,
+            stimuliOnsetTimes, stimuliCounter, grandClock, answers, answer_codes, reactionTimeEnabled);
     }
 
     private void ShowBlankScreen()
@@ -289,21 +285,18 @@ public class SlowTrainingController : MonoBehaviour
                     p_distractor.SetActive(true);
                     p_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
                     visCong -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- visual stimuli trigger 
 }
                 else if (distractorLetter == "b" && targetLetter == "b" && visCong >= 1)
                 {
                     b_distractor.SetActive(true);
                     b_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
                     visCong -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- visual stimuli trigger 
                 }
                 else if (distractorLetter == "b" &&  targetLetter == "p" && visIncong >= 1)
                 {
                     b_distractor.SetActive(true);
                     b_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
                     visIncong -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- visual stimuli trigger 
 
                 }
                 else if (distractorLetter == "p" &&  targetLetter == "b" && visIncong >= 1)
@@ -311,14 +304,12 @@ public class SlowTrainingController : MonoBehaviour
                     p_distractor.SetActive(true);
                     p_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
                     visIncong -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- visual stimuli trigger 
                 }
                 else if (distractorLetter == "g" && visNeu >= 1)
                 {
                     g_distractor.SetActive(true);
                     g_distractor.GetComponent<RectTransform>().anchoredPosition = distractorPos;
                     visNeu -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- visual stimuli trigger 
                 }
                 else
                 {
@@ -338,7 +329,6 @@ public class SlowTrainingController : MonoBehaviour
                     p_audio.SetActive(true);
                     p_audio.GetComponent<AudioSource>().Play();
                     audVisCong -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud visual stimuli trigger 
                     aud = false;
                     vis = false;
                     audvis = true;
@@ -350,7 +340,6 @@ public class SlowTrainingController : MonoBehaviour
                     b_audio.SetActive(true);
                     b_audio.GetComponent<AudioSource>().Play();
                     audVisCong -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud visual stimuli trigger 
                 }
                 else if (distractorLetter == "b" && targetLetter == "p" && audVisIncong >= 1)
                 {
@@ -359,7 +348,6 @@ public class SlowTrainingController : MonoBehaviour
                     b_audio.SetActive(true);
                     b_audio.GetComponent<AudioSource>().Play();
                     audVisIncong -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud visual stimuli trigger 
                 }
                 else if (distractorLetter == "p" && targetLetter == "b" && audVisIncong >= 1)
                 {
@@ -368,7 +356,6 @@ public class SlowTrainingController : MonoBehaviour
                     p_audio.SetActive(true);
                     p_audio.GetComponent<AudioSource>().Play();
                     audVisIncong -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud visual stimuli trigger 
                 }
                 else if (distractorLetter == "g" && audVisNeu>= 1)
                 {
@@ -377,7 +364,6 @@ public class SlowTrainingController : MonoBehaviour
                     g_audio.SetActive(true);
                     g_audio.GetComponent<AudioSource>().Play();
                     audVisNeu -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud visual stimuli trigger 
                 }
                 else
                 {
@@ -394,36 +380,31 @@ public class SlowTrainingController : MonoBehaviour
                 {
                     p_audio.SetActive(true);
                     p_audio.GetComponent<AudioSource>().Play();
-                    audCong -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud stimuli trigger 
+                    audCong -= 1; 
                 }
                 else if (distractorLetter == "b" && targetLetter == "b" && audCong >= 1)
                 {
                     b_audio.SetActive(true);
                     b_audio.GetComponent<AudioSource>().Play();
                     audCong -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud stimuli trigger 
                 }
                 else if (distractorLetter == "b" && targetLetter == "p" && audIncong >= 1)
                 {
                     b_audio.SetActive(true);
                     b_audio.GetComponent<AudioSource>().Play();
                     audIncong -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud stimuli trigger 
                 }
                 else if (distractorLetter == "p" && targetLetter == "b" && audIncong >= 1)
                 {
                     p_audio.SetActive(true);
                     p_audio.GetComponent<AudioSource>().Play();
                     audIncong -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud stimuli trigger 
                 }
                 else if (distractorLetter == "g" && audNeu >= 1)
                 {
                     g_audio.SetActive(true);
                     g_audio.GetComponent<AudioSource>().Play();
                     audNeu -= 1;
-                    biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data); //<-- aud stimuli trigger 
                 }
                 else
                 {

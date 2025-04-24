@@ -165,9 +165,53 @@ public class StimuliControllerHelper : MonoBehaviour
         return (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled);
     }
 
+    public (bool, bool, float[], string[], int[], bool) RecordReactionTraining(string targetLetter, bool enableHappy, bool enableSad, float[] reactionTimes, float[] stimuliOnsetTimes, int stimuliCounter, float grandClock, string[] answers, int[] answer_codes, bool reactionTimeEnabled)
+    {
+        if (Input.GetKeyDown(KeyCode.LeftAlt) && targetLetter == "p")
+        {
+            enableHappy = true;
+            reactionTimes[stimuliCounter] = grandClock - stimuliOnsetTimes[stimuliCounter];
+            answers[stimuliCounter] = "Correct";
+            answer_codes[stimuliCounter] = 1;
+            reactionTimeEnabled = false;
+
+            return (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled);
+        }
+
+        else if (Input.GetKeyDown(KeyCode.LeftAlt) && targetLetter == "b")
+        {
+            enableSad = true;
+            reactionTimes[stimuliCounter] = grandClock - stimuliOnsetTimes[stimuliCounter];
+            answers[stimuliCounter] = "Incorrect";
+            answer_codes[stimuliCounter] = 2;
+            reactionTimeEnabled = false;
+            return (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled);
+        }
+        else if (Input.GetKeyDown(KeyCode.RightAlt) && targetLetter == "b")
+        {
+            enableHappy = true;
+            reactionTimes[stimuliCounter] = grandClock - stimuliOnsetTimes[stimuliCounter];
+            answers[stimuliCounter] = "Correct";
+            answer_codes[stimuliCounter] = 1;
+            reactionTimeEnabled = false;
+            return (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled);
+        }
+
+        else if (Input.GetKeyDown(KeyCode.RightAlt) && targetLetter == "p")
+        {
+            enableSad = true;
+            reactionTimes[stimuliCounter] = grandClock - stimuliOnsetTimes[stimuliCounter];
+            answers[stimuliCounter] = "Incorrect";
+            answer_codes[stimuliCounter] = 2;
+            reactionTimeEnabled = false;
+            return (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled);
+        }
+        return (enableHappy, enableSad, reactionTimes, answers, answer_codes, reactionTimeEnabled);
+    }
+
     private void CorrectAnswerTriggers(bool vis, bool aud, bool audvis)
     {
-        byte[] data = { 6 };
+        byte[] data = { 0 };
 
         if (vis)
             data = new byte[] { 6 };biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
@@ -179,7 +223,7 @@ public class StimuliControllerHelper : MonoBehaviour
 
     private void IncorrectAnswerTriggers(bool vis, bool aud, bool audvis)
     {
-        byte[] data = { 6 };
+        byte[] data = { 0 };
 
         if (vis)
             data = new byte[] { 9 }; biosemi.GetComponent<BiosemiCommunicator>().sendTrigger(data);
